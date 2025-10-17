@@ -1,37 +1,37 @@
-```markdown
 # Portfolio Website
 
 ## Summary
-This project is a simple yet modern portfolio website that showcases personal information, skills, and a contact form. It is designed to be responsive, ensuring a seamless experience across devices of all sizes. The main sections include a header, an about section, and a contact form, making it suitable for web developers and creatives looking to present their work online.
+This is a simple and modern portfolio website designed to showcase projects. It features a responsive layout with a dark mode toggle functionality to enhance user experience. The website is built with HTML and CSS, and is designed to be lightweight and easy to navigate.
 
 ## Setup
 To set up and run the project locally, follow these steps:
 
-1. **Clone the repository**
+1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/yourusername/portfolio-website.git
    cd portfolio-website
    ```
 
-2. **Open `index.html` in your web browser**
-   - Simply double-click the `index.html` file or right-click and select "Open with" your preferred web browser.
-
-3. **Viewing Your Portfolio**
-   - Once opened in a web browser, you can view the portfolio layout and test the responsiveness by resizing the window or accessing it from different devices.
+2. **Open the HTML file:**
+   Open `index.html` in your web browser. You can simply double-click the file or use any web server to serve the content.
 
 ## Usage
-- **Navigation**: Use the navigation links in the header to jump to the "About Me" or "Contact Me" sections.
-- **Contact Form**: Fill in your name, email, and message in the contact form. Upon submission, a thank you alert will appear. The form currently demonstrates basic functionality and resets after submission.
+Once the website is open in your browser, you will see a header with the title "My Portfolio" and a button to toggle dark mode. Below the header, there are project cards displaying the names and descriptions of three sample projects.
+
+- **Toggle Dark Mode:** Click on the "Toggle Dark Mode" button to switch between light and dark themes.
+
+Feel free to replace the project descriptions with your actual projects and customize the styles as needed.
 
 ## Code Explanation
-The code consists of a single HTML file, `index.html`, which includes:
+The project consists of a single HTML file (`index.html`). Here’s a breakdown of the key components:
 
-- **Header**: Displays the title of the portfolio and navigation links to different sections.
-- **About Section**: Contains a brief introduction about the website owner, showcasing their passion for web development.
-- **Contact Section**: A form with input fields for a user’s name, email, and message, designed to collect contact information from visitors.
-- **Styling**: Uses internal CSS for styling, ensuring a clean, modern look with responsive design through media queries.
-- **JavaScript**: Implements a simple script to handle form submission, which prevents the default behavior, displays a thank you message, and resets the form fields.
+- **HTML Structure:** The webpage contains a header with a title and a button. Below it, there is a section for displaying project cards.
+  
+- **Styling:** CSS is used for layout and design, ensuring the body transitions smoothly between light and dark modes. The project cards feature hover effects that make them scale slightly for an interactive feel.
+
+- **Dark Mode Toggle:** JavaScript is used to handle the dark mode toggle functionality. When the button is clicked, it switches the classes of the body element to alternate between the 'light' and 'dark' themes.
+
+- **Validation Checks:** The code includes console assertions to ensure that essential elements are present and correctly configured.
 
 ## License
-This project is licensed under the MIT License.
-```
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as you see fit!
